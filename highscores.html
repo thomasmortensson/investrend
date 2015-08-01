@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Top Investors</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="Player.js"></script>
+  <script type="text/javascript" src="highscores.js"></script>
+  <link rel="stylesheet" href="highscores.css">
+
+</head>
+<body 
+
+
+<div class="container">
+  <h2>Investors' Leaderboard</h2>
+    <input id="investmentsUsername" type="text" name="username" placeholder="username" class="indent">
+    <br>
+  	<input type="button" value="View investments" onclick="viewInvestments();" class="btn btn-default indent">
+  	<br>
+		<input type="button" value="return to the login page" onclick="goToLogin();" class="btn btn-default indent">
+		<br>
+  <p>
+    		<form>
+    		<b>
+				Username:
+				<br>
+				Please enter your username to share your score on twitter
+				</b>
+				<input id="shareUsername" type="text" name="username" placeholder="username">
+				<br>
+				</form>
+    <input type="button" value="Share your score on twitter" onclick="tweetscore();" class="btn btn-default">  
+    </p>
+  </p>
+  <table class="table table-bordered" id="highscoreTable">
+    <thead>
+      <tr>
+        <th>Rank</th>
+        <th>Username</th>
+        <th>Money</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+
+      </tr>
+      <tr>
+
+      </tr>
+      <tr>
+
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+</body>
+</html>
